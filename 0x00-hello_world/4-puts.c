@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*program that prints with puts func*/
+/**
+* main - program that prints with puts func
+*return
+*/
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle");
