@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code.
- *void print_alphabet_x10: print a-z x10
- * Return: Always 0.
+ *print_alphabet_x10: Entry point
+ *Description: Prints a-z x10
+ * Return: Always 0
  */
 void print_alphabet_x10(void)
 {
@@ -11,9 +11,9 @@ void print_alphabet_x10(void)
 
 	for (j = 1; n <= 10; n++)
 	{
-		for (j = 97; j <=122; j++)
+		for (j = 97; j <= 122; j++)
 		{
-			putchar(j);
+			_putchar(j);
 		}
 		_putchar('\n');
 	}
