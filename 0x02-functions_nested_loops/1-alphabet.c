@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*main - Entry point
-*Description: print_alphabet:prints letters from a - z
+*print_alphabet - Entry point
+*Description: prints letters from a - z
 *Return: 0 success
 */
 void print_alphabet(void)
