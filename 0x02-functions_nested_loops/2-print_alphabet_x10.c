@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*print_alphabet_x10: Entry point for function
+*print_alphabet_x10 - Entry point for function
 *Description: Prints a-z x10 times
-*Return: Always 0
+*Return: Always 0 Success
 */
 void print_alphabet_x10(void)
 {
