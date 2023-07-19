@@ -4,13 +4,12 @@
 *Description: Print Alphabet
 *Return: 0 success
 */
-char n;
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	for (n = 97; n <= 122; n++;)
+	int n;
+	for (n = 97; n <= 122; n++)
 	{
 		_putchar(n);
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
