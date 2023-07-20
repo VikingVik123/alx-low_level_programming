@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*int _abs - Entry point
+*_abs - Entry point
 *Description: Prints sign of numbers
-*@n: int value to check
+*@i: int value to check
 *Return: 0 success
 */
 
@@ -14,6 +14,6 @@ int _abs(int i)
 	}
 	else
 	{
-		return (1 + -1);
+		return (1 * -1);
 	}
 }
