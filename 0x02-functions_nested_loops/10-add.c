@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*int add- Entry point
+*add- Entry point
 *Description: addition of two integers
 *@a: integer a
 *@b: integer b

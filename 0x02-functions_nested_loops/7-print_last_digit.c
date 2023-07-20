@@ -2,7 +2,7 @@
 /**
 *print_last_digit - Entry point
 *Description: Prints sign of numbers
-*@n: int value to check
+*@i: int value to check
 *Return: 0 success
 */
 
@@ -21,4 +21,5 @@ int print_last_digit(int i)
 	{
 		_putchar(l + 48);
 		return(l);
+	}
 }
