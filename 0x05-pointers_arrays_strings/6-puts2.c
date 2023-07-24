@@ -3,7 +3,7 @@
 /**
  * puts2 - prints one char of a string
  * @str: string to print the chars from
- * return : 1 char 
+ * return : 1 char
  */
 void puts2(char *str)
 {

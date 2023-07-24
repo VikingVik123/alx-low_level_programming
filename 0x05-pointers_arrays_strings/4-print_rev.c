@@ -2,8 +2,9 @@
 /**
  * print_rev(char *s) - prints string in reverse
  * @*s : string
+ * @s : string
  * return : reverse of string successful
- * */
+ */
 void print_rev(char *s)
 {
 	int i, j, len;
