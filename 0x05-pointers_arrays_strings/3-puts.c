@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - inserts char
- * str : character to be inserted
+ * @str : character to be inserted
  * return: char if successful
  */
 
