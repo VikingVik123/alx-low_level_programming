@@ -1,6 +1,6 @@
 #include "main.h"
-/** _puts(char *str) - inserts char
- * *str : character to be inserted
+/** _puts - inserts char
+ * str : character to be inserted
  * return: char if successful
  */
 
