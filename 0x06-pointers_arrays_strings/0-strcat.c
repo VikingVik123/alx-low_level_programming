@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*_strcat(char *dest, char *src) - function to combine strings
-*@src :string to add
-*@dest : character to be attached to
-*return :combined string if successful
+* _strcat - function to combine strings
+* @src :string to add
+* @dest : character to be attached to
+* return :combined string if successful
 */
 
 char *_strcat(char *dest, char *src)
