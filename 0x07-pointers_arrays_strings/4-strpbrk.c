@@ -7,18 +7,20 @@
  * Return: 0 if Successful
  */
 
+
 char *_strpbrk(char *s, char *accept)
 {
-	int i, n;
+	int k;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s)
 	{
-		for (n = 0; accept[n] != '\0'; n++)
+		for (k = 0; accept[k]; k++)
 		{
-			if (s[i] == accept[n])
-				return (s + i);
+		if (*s == accept[k])
+		return (s);
 		}
+	s++;
 	}
 
-	return (NULL);
+return ('\0');
 }
