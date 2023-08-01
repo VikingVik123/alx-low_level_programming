@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_memset - Constant byte function
+ *_memset - Entry point
  *@s:value to fill into n
  *@n:int memory to be flled
  *@b: constant byte

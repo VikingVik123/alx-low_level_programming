@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strspn
+ *_strspn - Entry point
  *@s:bytes from accept
  *@accept: input from user
  *return: number of byte 
