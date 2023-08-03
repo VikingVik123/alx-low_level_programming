@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *factorial(int n) - Entry point
- *@n: integer value
- *Return: factorial of n if successful
+ * factorial - Entry point
+ * @n: integer value
+ * Return: factorial of n if successful
  */
 int factorial(int n)
 {
