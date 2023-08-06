@@ -1,14 +1,14 @@
 #include "main.h"
 /**
 *_strpbrk - Entry point
-*@s : input 
+*@s : input
 *@accept : input
 *return : 0 if successful
 */
 char *_strpbrk(char *s, char *accept)
 {
 	int k;
-	
+
 	while (*s)
 	{
 		for (k = 0; accept[k]; k++)

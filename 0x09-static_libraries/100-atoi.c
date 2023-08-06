@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 *_atoi - Entry point
-*@s : input value
-*return : 0
+*@s: input value
+*return: res if successful
 */
 int _atoi(char *s)
 {
@@ -17,9 +17,9 @@ int _atoi(char *s)
 	}
 	while (s[i] <= '9' && (s[i] >= '0' && s[i] != '\0'))
 	{
-		res = (res *10) + (s[i] - '0');
+		res = (res * 10) + (s[i] - '0');
 		i++;
 	}
-	res *= sign;
+	res * = sign;
 	return (res);
 }
