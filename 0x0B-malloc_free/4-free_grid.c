@@ -3,7 +3,7 @@
 
 /**
  *free_grid - frees 2D grid
- ***grid: size of grid
+ **grid: size of grid
  *@height: size of grid
  *Return: pointer to grid
  */
