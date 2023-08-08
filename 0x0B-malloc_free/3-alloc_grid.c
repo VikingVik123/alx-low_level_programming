@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- *alloc_grid - creates 2D array
+ ***alloc_grid - creates 2D array
  *@width: size of grid
  *@height: size of  grid
- *@grid: grid location
  *Return: 0 or NULL if failed
  */
 
