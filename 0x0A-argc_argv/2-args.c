@@ -6,11 +6,14 @@
  *@coun: int
  *Return: 0 if successful
  */
-
-int main(int argc, char *argv[0])
+int main(int argc, char *argv[])
 {
-	int coun;
+	int i;
 
-	printf("%s\n", argv[coun]);
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
 	return (0);
 }
