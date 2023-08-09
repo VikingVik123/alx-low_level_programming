@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ *main - Entry point
+ *@coun: int
+ *Return: 0 if successful
  */
 
 int main(int argc, char *argv[0])
