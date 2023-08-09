@@ -3,7 +3,9 @@
 #include <stdlib.h>
 /**
  *main - Entry point
- *@coun: int
+ *@argc: arg count
+ *@argv: arg vector
+ *@coun: int value
  *Return: 0 if successful
  */
 int main(int argc, char *argv[])
