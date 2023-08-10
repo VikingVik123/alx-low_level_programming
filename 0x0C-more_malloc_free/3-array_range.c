@@ -1,3 +1,13 @@
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ **array_range - Entry point
+ *@min: lowest value of range
+ *@max: highest value of range
+ *Return: a if successful
+ */
 int *array_range(int min, int max)
 {
 	int *a;
