@@ -7,7 +7,7 @@
  * @n: no of integers
  * @seperator: string to be printed
  * @...: variable 2 be printed
- *Return: printed string
+ * Return: printed string
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
