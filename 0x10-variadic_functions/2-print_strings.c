@@ -1,7 +1,13 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 #include <stdio.h>
-
+/**
+ * print_strings - Fxn to print strings
+ * @separator: string to be printed
+ * @n:  no of strings
+ * @...: variable number of strings to be printed.
+ * Return: string or NULL
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list list;
@@ -9,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 
 
-	va_start(list, n)
+	va_start(list, n);
 
 	for (c = 0; c < n; c++)
 	{
