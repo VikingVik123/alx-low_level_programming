@@ -6,15 +6,17 @@
  * @n: data to insert in that new node
  * Return: pointer to the new node, or NULL if unsuccessful
  */
-size_t listint_len(const listint_t *h)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-	size_t num = 0;
+	listint_t *new;
 
-	while (h)
-	{
-		num++;
-		h = h->next;
-	}
+	new = malloc(sizeof(listint_t));
+	if (!new)
+		return (NULL);
 
-	return (num);
+	new->n = n;
+	new->next = *head;
+	*head = new;
+
+	return (new);
 }
