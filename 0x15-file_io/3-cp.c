@@ -1,13 +1,16 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
-/**
- * append_text_to_file - Appends text at the end of a file.
- * @filename: A pointer to the name of the file.
- * @text_content: The string to add to the end of the file.
- * Return: 1 successful
- */
+
 char *create_buffer(char *file);
 void close_file(int fd);
+
+/**
+ * create_buffer - Allocates 1024 bytes for a buffer.
+ * @file: The name of the file buffer is storing chars for.
+ *
+ * Return: A pointer to the newly-allocated buffer.
+ */
 char *create_buffer(char *file)
 {
 	char *buffer;
