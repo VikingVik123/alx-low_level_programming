@@ -1,1 +1,1 @@
-This directory contains tasks for 0x15-file_io
+This folder contains the files for the file i/o project
