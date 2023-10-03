@@ -2,16 +2,16 @@
 
 /**
  * append_text_to_file - appends text to a file
- * filename: the name of the file 2 be created
- * text_content: contents of filename
- * return: 1 if successful
+ * @filename: the name of the file 2 be created
+ * @text_content: contents of filename
+ * Return: 1 if successful otherwise NULL
  */
 
 
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int o, w, len = 0;
-	
+
 	if (filename == NULL)
 		return (-1);
 
