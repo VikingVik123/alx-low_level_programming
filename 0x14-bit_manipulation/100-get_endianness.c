@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- *
- * * get_endianness - check endianness
- *
- * * Return: 0
- *
- * */
+ * get_endianness - check endianness
+ * Return: 0
+ */
 
 int get_endianness(void)
 

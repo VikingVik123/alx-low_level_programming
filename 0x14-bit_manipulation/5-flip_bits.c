@@ -1,16 +1,11 @@
 #include "main.h"
 
 /**
- *
- * * flip_bits - flip bits to convert one number to another number
- *
- * * @n: first number
- *
- * * @m: second number
- *
- * * Return: number of bits to flip
- *
- * */
+ * flip_bits - flip bits to convert one number to another number
+ * @n: first number
+ * @m: second number
+ * Return: number of bits to flip
+ */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 

@@ -1,14 +1,10 @@
 #include "main.h"
 
 /**
- *
- * * print_binary - print binary conversion of a number
- *
- * * @n: decimal number
- *
- * * return: binary number
- *
- * */
+ * print_binary - print binary conversion of a number
+ * @n: decimal number
+ * return: binary number
+ */
 
 void print_binary(unsigned long int n)
 
