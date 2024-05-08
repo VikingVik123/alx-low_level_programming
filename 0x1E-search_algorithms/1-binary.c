@@ -12,27 +12,40 @@
  *
  * Return: Index where the value is located, or -1 if value is not found.
  */
+
 int binary_search(int *array, size_t size, int value)
 {
 	size_t l = 0;
 	size_t r = size - 1;
+	size_t i;
 
 	while (l <= r)
 	{
-		size_t mid = l + (r - l) / 2;
+		int mid = l + (r - l) / 2;
+
+		printf("Searching in array: ");
+		for (i = l; i <= r; i++)
+		{
+			if (i != r)
+				printf("%d, ", array[i]);
+			else
+				printf("%d\n", array[i]);
+		}
 
 		if (array[mid] == value)
 		{
-			return mid; /* Value found, return index*/
+			printf("Found %d at index: %d\n", value, mid);
+			return (mid);
 		}
 		else if (value < array[mid])
 		{
 			r = mid - 1;
 		}
-		else /* value > array[mid]*/
+		else
 		{
 			l = mid + 1;
 		}
 	}
-	return -1; /*Value not found, return -1*/
+	printf("Value %d not found in the array\n", value);
+	return (-1);
 }
